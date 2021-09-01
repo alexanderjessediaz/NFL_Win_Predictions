@@ -39,9 +39,9 @@ export const AppNavigator = () => (
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <NavigationContainer>{
       <AppNavigator />
-    </NavigationContainer>
+      }</NavigationContainer>
   );
 }
 
