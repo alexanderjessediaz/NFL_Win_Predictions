@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 import { createStackNavigator } from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
@@ -22,9 +23,9 @@ const ProfileNavigator = () => (
   </Stack.Navigator>
 );
 
-const LoginScreen = () => (
+const UserLeague = () => (
   <View style={styles.layout}>
-    <Text style={styles.title}>Login</Text>
+    <Text style={styles.title}>UserLeague</Text>
   </View>
 );
 
